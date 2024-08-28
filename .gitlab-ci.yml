@@ -1,0 +1,7 @@
+run_tests:
+   before_script:
+    - apt-get update
+    - apt-get install git -y
+    - apt-get install make -y
+   script:
+    - make test
